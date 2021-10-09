@@ -714,6 +714,7 @@ section {
   line-height: 1;
   text-transform: uppercase;
   color: #555555;
+  /* color: purple; */
   transition: all 0.3s ease-in-out;
   margin: 0 4px 10px 4px;
   background: whitesmoke;
@@ -731,11 +732,13 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background: rgba(0, 0, 0, 0.6);
+  /* background: rgba(0, 0, 0, 0.6); */
+  background: purple;
 }
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(21, 21, 21, 0.6);
+  /* background: rgba(21, 21, 21, 0.6); */
+  background: rgba(160, 32, 240, 0.6);
   position: absolute;
   left: 30px;
   right: 30px;
