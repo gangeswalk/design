@@ -370,17 +370,17 @@ h1, h2, h3, h4, h5, h6 {
 section {
   padding: 60px 0;
   overflow: hidden;
-  background-color: rgba(160, 32, 240, 0.03);
+  /* background-color: rgba(160, 32, 240, 0.03); */
   /* background-color: rgba(0, 0, 255, 0.1); */
   /* background-image: linear-gradient(to right, rgba(160, 32, 240, 0.5), rgba(0, 0, 255, 0.5)); */
 }
 
 .section-bg {
   /* background-color: whitesmoke; */
-  /* background-image: linear-gradient(to right, purple, blue); */
+
   background-color: rgba(160, 32, 240, 0.5);
-  /* filter: brightness(120%); */
-  /* color: transparent; */
+  
+ 
 }
 
 .section-title {
@@ -393,11 +393,13 @@ section {
   text-transform: uppercase;
   margin-bottom: 15px;
   padding-bottom: 0;
-  color: #151515;
+  /* color: #151515; */
+  color: rebeccapurple;
 }
 .section-title p {
   margin-bottom: 0;
-  color: #aeaeae;
+  /* color: #aeaeae; */
+  color: #151515;
 }
 
 /*--------------------------------------------------------------
