@@ -370,10 +370,17 @@ h1, h2, h3, h4, h5, h6 {
 section {
   padding: 60px 0;
   overflow: hidden;
+  background-color: rgba(160, 32, 240, 0.03);
+  /* background-color: rgba(0, 0, 255, 0.1); */
+  /* background-image: linear-gradient(to right, rgba(160, 32, 240, 0.5), rgba(0, 0, 255, 0.5)); */
 }
 
 .section-bg {
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
+  /* background-image: linear-gradient(to right, purple, blue); */
+  background-color: rgba(160, 32, 240, 0.5);
+  /* filter: brightness(120%); */
+  /* color: transparent; */
 }
 
 .section-title {
@@ -738,7 +745,7 @@ section {
 .portfolio .portfolio-wrap::before {
   content: "";
   /* background: rgba(21, 21, 21, 0.6); */
-  background: rgba(10, 10, 240, 0.4);
+  background: rgba(10, 10, 255, 0.2);
   position: absolute;
   left: 30px;
   right: 30px;
@@ -1235,7 +1242,8 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #eaf6e9;
+  /* background: #eaf6e9; */
+  background: rgba(160, 32, 240, 0.1);
   display: flex;
   justify-content: center;
   align-items: center;
