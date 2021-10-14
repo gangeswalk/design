@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: purple;
+  background: rgba(160, 32, 240, 0.7);
   color: #fff;
 }
 .back-to-top.active {
@@ -1337,7 +1337,7 @@ section {
   border-radius: 4px;
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: rebeccapurple;
+  background: rgba(160, 32, 240, 0.7);
 }
 @-webkit-keyframes animate-loading {
   0% {
