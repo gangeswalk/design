@@ -33,12 +33,7 @@
   );
   */
 
-  $contact->smtp = array(
-    'host' => 'mail.rob-design.com',
-    'username' => 'rob@rob-design.com',
-    'password' => 'bubkiQ-4jasni-pozsut',
-    'port' => '465'
-  );
+  
 
   $contact->add_message( $_POST['name'], 'From');
   $contact->add_message( $_POST['email'], 'Email');
